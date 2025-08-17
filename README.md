@@ -5,7 +5,7 @@ This project implements and compares two different approaches for image classifi
 1. **SVM + HOG (Histogram of Oriented Gradients)**
 2. **CNN (Convolutional Neural Network)**
 
-## 🎯 Features
+##  Features
 
 - **Comprehensive Comparison**: Accuracy, training time, and inference time analysis
 - **Configurable Hyperparameters**: Easy to modify parameters for both models
@@ -14,13 +14,13 @@ This project implements and compares two different approaches for image classifi
 - **Detailed Visualizations**: Performance comparison charts and confusion matrices
 - **Flexible Dataset Loading**: Supports any dataset organized by class directories
 
-## 📋 Requirements
+##  Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🗂️ Dataset Structure
+##  Dataset Structure
 
 Organize your dataset with subdirectories for each class:
 
@@ -39,7 +39,7 @@ dataset/
     └── ...
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -60,7 +60,7 @@ python main.py --data_dir dataset --no_augmentation
 python main.py --data_dir /custom/path/to/dataset
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 All hyperparameters can be modified in `config.py`:
 
@@ -75,7 +75,7 @@ All hyperparameters can be modified in `config.py`:
 - Data augmentation settings
 - Early stopping configuration
 
-## 📊 Results
+##  Results
 
 The program generates:
 
@@ -102,13 +102,13 @@ All results are saved in the `results/` directory with both visualizations and J
 - **Augmentation**: Rotation, shifting, shearing, zooming, flipping
 - **Advantages**: High accuracy, automatic feature learning
 
-## 📈 Expected Performance
+##  Expected Performance
 
 - **SVM + HOG**: Faster training, good baseline accuracy
 - **CNN**: Higher accuracy potential, better with larger datasets
 - **Trade-offs**: Accuracy vs. computational efficiency
 
-## 🛠️ Customization
+##  Customization
 
 ### Adding New Models
 1. Create a new model class following the same interface
@@ -121,7 +121,7 @@ All results are saved in the `results/` directory with both visualizations and J
 - **CNN**: Modify layer configurations, add/remove layers
 - **Data Augmentation**: Customize augmentation parameters
 
-## 📝 Output Files
+## Output Files
 
 - `model_comparison.json`: Complete results and model information
 - `accuracy_comparison.png`: Accuracy visualization
@@ -130,7 +130,7 @@ All results are saved in the `results/` directory with both visualizations and J
 - `confusion_matrices.png`: Confusion matrices for both models
 - `detailed_metrics.png`: Precision, recall, and F1-score comparison
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -146,7 +146,7 @@ All results are saved in the `results/` directory with both visualizations and J
 - Enable early stopping to prevent overfitting
 - Use data augmentation for better CNN performance
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to contribute by:
 - Adding new model architectures
@@ -154,6 +154,3 @@ Feel free to contribute by:
 - Optimizing performance
 - Adding new evaluation metrics
 
-## 📄 License
-
-This project is open source and available under the MIT License.
